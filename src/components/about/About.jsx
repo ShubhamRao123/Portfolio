@@ -24,8 +24,7 @@ const About = () => {
             into manageable components, and provide creative solutions. I can
             quickly familiarize myself with new frameworks, programming
             languages, or tools, allowing me to stay up-to-date with industry
-            trends and best practices. I can engage in discussions, provide
-            insights, and understand the needs of stakeholders.
+            trends and best practices.
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV
