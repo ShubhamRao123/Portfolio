@@ -5,6 +5,7 @@ import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import Scrollup from "./components/scrollup/Scrollup";
 
 const App = () => {
   return (
@@ -15,8 +16,9 @@ const App = () => {
         <About />
         <Skills />
         <Contact />
-        <Footer />
       </main>
+      <Footer />
+      <Scrollup />
     </>
   );
 };
