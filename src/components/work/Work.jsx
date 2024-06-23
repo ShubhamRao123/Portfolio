@@ -3,6 +3,7 @@ import "./Work.css";
 import Netflix from "../../assets/Netflix.png";
 import Home from "../../assets/Home.png";
 import Slack from "../../assets/slack.jpeg";
+import Crypto from "../../assets/Crypto.png";
 
 const Work = () => {
   return (
@@ -16,6 +17,16 @@ const Work = () => {
 
           <a
             href="https://github.com/ShubhamRao123/Skyline-Realty?tab=readme-ov-file"
+            className="work__button"
+          >
+            Demo <i className="bx bx-right-arrow-alt work__button-icon"></i>
+          </a>
+        </div>
+        <div className="work__card">
+          <img src={Crypto} alt="" className="work__img" />
+
+          <a
+            href="https://github.com/ShubhamRao123/Cryptoworld"
             className="work__button"
           >
             Demo <i className="bx bx-right-arrow-alt work__button-icon"></i>
