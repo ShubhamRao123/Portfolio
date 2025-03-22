@@ -2,7 +2,7 @@ import React from "react";
 import "./Work.css";
 import Netflix from "../../assets/Netflix.png";
 import Home from "../../assets/Home.png";
-import Slack from "../../assets/slack.jpeg";
+import Slack from "../../assets/slack.png";
 import Crypto from "../../assets/Crypto.png";
 
 const Work = () => {
@@ -16,7 +16,7 @@ const Work = () => {
           <img src={Home} alt="" className="work__img" />
 
           <a
-            href="https://github.com/ShubhamRao123/Skyline-Realty?tab=readme-ov-file"
+            href="https://url-shortener-ui-lilac.vercel.app/"
             className="work__button"
           >
             Demo <i className="bx bx-right-arrow-alt work__button-icon"></i>
@@ -25,8 +25,15 @@ const Work = () => {
         <div className="work__card">
           <img src={Crypto} alt="" className="work__img" />
 
+          <a href="https://cryyptooworld.netlify.app/" className="work__button">
+            Demo <i className="bx bx-right-arrow-alt work__button-icon"></i>
+          </a>
+        </div>
+        <div className="work__card">
+          <img src={Slack} alt="" className="work__img" />
+
           <a
-            href="https://github.com/ShubhamRao123/Cryptoworld"
+            href="https://formbot-frontend-three.vercel.app/"
             className="work__button"
           >
             Demo <i className="bx bx-right-arrow-alt work__button-icon"></i>
@@ -37,16 +44,6 @@ const Work = () => {
 
           <a
             href="https://github.com/ShubhamRao123/Netflix"
-            className="work__button"
-          >
-            Demo <i className="bx bx-right-arrow-alt work__button-icon"></i>
-          </a>
-        </div>
-        <div className="work__card">
-          <img src={Slack} alt="" className="work__img" />
-
-          <a
-            href="https://github.com/ShubhamRao123/Slack-clone"
             className="work__button"
           >
             Demo <i className="bx bx-right-arrow-alt work__button-icon"></i>
